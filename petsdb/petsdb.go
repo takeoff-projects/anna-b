@@ -7,7 +7,6 @@ import (
 	"log"
 	"os"
 	"time"
-
 	"cloud.google.com/go/datastore"
 )
 
@@ -41,7 +40,7 @@ func GetPets() ([]Pet, error) {
 	}
 
 	// Create a query to fetch all Pet entities".
-	query := datastore.NewQuery("Pet").Order("-likes")
+	query := datastore.NewQuery("Pet")
 	keys, err := client.GetAll(ctx, query, &pets)
 	if err != nil {
 		fmt.Println(err)

@@ -14,3 +14,11 @@
 # Dependency directories (remove the comment below to include it)
 vendor/
 tmp/
+
+gcp-sa-key.json
+
+.idea/*
+.idea
+.terraform.*
+.terraform
+terraform*
