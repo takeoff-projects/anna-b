@@ -9,4 +9,4 @@ When prompted, enter your gcloud project-id and path to the downloaded key.
 
 To use POST API (add new pet to the DB), in command line run CURL command, e.g.
 
-curl -X POST -H "Content-Type: application/json"  -d '{"Added":"2021-09-30T11:02:04.373Z","Caption":"Posted by API","Email":"love.cats@test.com","Image":"https://i.redd.it/x2a031bsfft61.jpg","Likes":100500,"Owner":"Buslier","Petname":"Astonished Cat"}' https://app-vblpjdskha-ey.a.run.app/
+curl -X POST -H "Content-Type: application/json"  -d '{"Added":"2021-09-30T11:02:04.373Z","Caption":"Posted by API","Email":"love.cats@test.com","Image":"https://i.redd.it/x2a031bsfft61.jpg","Likes":100500,"Owner":"Buslier","Petname":"Astonished Cat"}' https://app-vblpjdskha-ey.a.run.app/pets
