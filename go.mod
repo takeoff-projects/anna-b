@@ -2,7 +2,11 @@ module drehnstrom.com/go-pets
 
 go 1.17
 
-require cloud.google.com/go/datastore v1.5.0
+require (
+	cloud.google.com/go/datastore v1.5.0
+	github.com/google/uuid v1.1.2
+	github.com/gorilla/mux v1.8.0
+)
 
 require (
 	cloud.google.com/go v0.93.3 // indirect

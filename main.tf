@@ -27,7 +27,7 @@ resource "google_project_service" "firestore" {
 resource "google_firestore_document" "initial-pet" {
   collection  = "Pet"
   document_id = "initial-pet"
-  fields      = "{\"petname\":{\"stringValue\":\"Gopher\"}, \"owner\":{\"stringValue\":\"Fairy\"}, \"likes\":{\"integerValue\":\"20\"}, \"image\":{\"stringValue\":\"https://cdn.shopify.com/s/files/1/0541/3955/1941/files/gopher_480x480.png?v=1621428369\"}}"
+  fields      = "{\"petname\":{\"stringValue\":\"Gopher\"}, \"caption\":{\"stringValue\":\"Added by Terraform\"}, \"owner\":{\"stringValue\":\"Fairy\"}, \"likes\":{\"integerValue\":\"20\"}, \"image\":{\"stringValue\":\"https://cdn.shopify.com/s/files/1/0541/3955/1941/files/gopher_480x480.png?v=1621428369\"}}"
 }
 
 resource "google_cloud_run_service" "run_service" {
